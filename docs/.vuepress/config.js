@@ -4,16 +4,17 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Learn', link: '/learn/' },
+      { text: 'Learn', link: '/Learn/' },
       { text: 'External', link: 'https://google.com' },
       {
-        text: 'Languages',
+        text: 'About',
         items: [
-          { text: 'Chinese', link: '/language/chinese' },
-          { text: 'Japanese', link: '/language/japanese' }
+          { text: 'GitHub', link: '/language/chinese' },
+          { text: 'Me', link: '/About/me' }
         ]
       }
-    ]
+    ],
+
   },
   markdown: {
     lineNumbers: true

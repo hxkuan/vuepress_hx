@@ -1,4 +1,7 @@
-[[toc]]
+---
+sidebar: auto
+---
+# VuePress 基础
 ## 文档
 - 文件夹都应当有一个 README.md 文件，它会被自动编译为 index.html。
     - 确保链接以 `.html` 或 `.md` 结尾；
@@ -35,6 +38,7 @@
     {{page.custom_prop4}}      <!-- 输出数组项 123 -->
     
     ```
+- 通过`fs`读取文件后在通过`front-matter`解析成data。
 ## 其他
 
 - 目录输出：`[[toc]]`
